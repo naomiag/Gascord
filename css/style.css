@@ -1,0 +1,175 @@
+body{
+    margin:0;
+}
+
+.header{
+    background-image: url(../assets/background.png);
+    background-size: cover;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    width: 200px;
+    margin-left: 200px;
+}
+
+.reg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 200px;
+}
+.regis{
+    background-color: white;
+    color:black;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    padding: 15px 40px;
+    border-radius: 45px;
+}
+
+.home{
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: center; */
+}
+
+.img1{
+    margin-left: -450px;
+    margin-bottom: -42px;
+}
+
+.img2{
+    margin-right: -500px;
+}
+
+.word{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.title1{
+    font-size: 60px;
+    padding-top: 100px;
+    padding-bottom: 15px;
+    font-weight: bolder;
+}
+
+.desc1{
+    padding-bottom: 25px;
+}
+
+.down{
+    text-decoration: none;
+    color: white;
+    background-color:gray;
+    padding: 10px 25px;
+    border-radius: 15px;
+}
+
+.content1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 100px;
+}
+
+.title2{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    font-weight: bolder;
+    padding-top: 120px;
+    padding-bottom: 30px;
+}
+
+.desc2container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.desc2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    width: 1200px;
+    font-size: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.imgContent1{
+    display: flex;
+    justify-content: center;
+}
+
+.content2{
+    background-color: rgb(231, 231, 231);
+    padding-top: 150px;
+    padding-bottom: 210px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.word2{
+    margin-left: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.title3{
+    font-size: 50px;
+    font-weight: bolder;
+    padding-bottom: 15px;
+}
+
+.desc3{
+    font-size: 22px;
+}
+
+.imgContent2{
+    margin-right: 40px;
+}
+
+.footer{
+    background-color: rgb(49, 47, 47);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 25vh;
+}
+
+.logobottom{
+    height: 10vh;
+    display: flex;
+
+}
+
+.socmed{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 130px;
+}
+
+.ig1{
+    height: 5vh;
+    display: flex;
+    align-items: center;
+}
+
+.tube{
+    height: 5vh;
+    display: flex;
+    align-items: center;
+}

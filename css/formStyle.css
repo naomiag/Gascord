@@ -1,0 +1,99 @@
+body{
+    margin:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+
+    background-image: url(../assets/backgroundRegister.jpg);
+
+}
+
+h1{
+    text-align: center;
+}
+
+.formTemp{
+    margin: 5%;
+    width: 350px;
+    height: 100%;
+    padding: 5% 5%;
+
+    border-radius: 5%;
+    background-color:rgb(255, 255, 255);
+}
+
+.name{
+    display: flex;
+    justify-content: space-between;
+
+    padding: 10px;
+}
+.sex{
+    display: flex;
+    justify-content: space-between;
+
+    padding: 10px;
+}
+.phoneNum{
+    display: flex;
+    justify-content: space-between;
+
+    padding: 10px;
+}
+.mail{
+    display: flex;
+    justify-content: space-between;
+
+    padding: 10px;
+}
+.pass{
+    display: flex;
+    justify-content: space-between;
+
+    padding: 10px;
+}
+.type{
+    display: flex;
+    justify-content: space-between;
+
+    padding: 10px;
+}
+.birth{
+    display: flex;
+    justify-content: space-between;
+
+    padding: 10px;
+}
+
+.termncon{
+    display: flex;
+    justify-content: space-between;
+
+    padding: 10% 5%;
+}
+
+.subcan{
+    display:flex;
+    justify-content: space-between;
+}
+
+.subcan a{
+    text-decoration: none;
+
+    width:max-content;
+    padding: 0% 10%;
+}
+
+.subcan button{
+    width:100px;
+}
+
+.text a{
+    text-decoration: none;
+    color: rgb(37, 96, 223);
+
+}

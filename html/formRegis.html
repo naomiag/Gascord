@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrartion</title>
+    <link rel="stylesheet" href="../css/formStyle.css">
+</head>
+<body>
+    <div class="formTemp">
+        <h1>Join Now!</h1>
+        <form action="index.html">
+            <div class="name">
+                <div class="text">
+                    <label for="askingName">
+                        Full Name
+                    </label>
+                </div>
+                <div class="input">
+                    <input type="text" name="inputName" placeholder="enter your full name">
+                </div>
+            </div>
+    
+            <div class="sex">
+                <div class="text">
+                    <label for="chooseSex">
+                        Sex
+                    </label>
+                </div>
+                <div class="input">
+                    <input type="radio" name="inputSex"> Female
+                    <input type="radio" name="inputSex"> Male
+                </div>
+            </div>
+    
+            <div class="phoneNum">
+                <div class="text">
+                    Phone Number
+                </div>
+                <div class="input">
+                    <input type="telp" name ="phoneNum" placeholder="enter your phone number">
+                </div>
+            </div>
+    
+            <div class="mail">
+                <div class="text">
+                   E-Mail
+                </div>
+                <div class="input">
+                    <input type="email" name="userEmail" placeholder="enter your e-mail">
+                </div>
+            </div>
+                
+            <div class="pass">
+                <div class="text">
+                    Password
+                </div>
+                <div class="input">
+                    <input type="password" name="userPassword" placeholder="enter your password">
+                </div>
+            </div>
+    
+            <div class="type">
+                <div class="text">
+                    Member's Type
+                </div>
+                <div class="input">
+                    <select name="memberType" id="">
+                        <option value="">--Choose One--</option>
+                        <option value="Premium">Premium</option>
+                        <option value="Nitro">Nitro</option>
+                        <option value="Basic">Basic</option>
+                    </select>
+                </div>
+            </div>
+    
+            <div class="birth">
+                <div class="text">
+                    Birth Date
+                </div>
+                <div class="input">
+                    <input type="date" name="birthDate">
+                </div>
+            </div>
+    
+            <div class="termncon">
+                <div class="input">
+                    <input type="checkbox" name="aggrement" checked="checked">
+                </div>
+                <div class="text">
+                    By creating an account, I aggree to GrowtoDYA
+                    <a href="../HTML/index.html">
+                        Terms & Privacy
+                    </a>
+                </div>
+            </div>
+                
+            
+            <div class="subcan">
+                <a href="../HTML/index.html" target="_blank">
+                    <button type="button" class="subbt">Submit</button>
+                </a>
+                <a href="../HTML/index.html" target="_blank">
+                    <button type="button" class="canbt">Cancel</button>
+                </a>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
